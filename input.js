@@ -10,11 +10,20 @@ const directions = {
   d: "Move: right"
 };
 
+const phrases = {
+  j: 'Say: Jump',
+  m: 'Say: Man',
+  l: 'Say: Look',
+  o: 'Say: Out'
+};
+
 const handleUserInput = function (key) {
   if (key === '\u0003') {
     process.exit();
   } else if (directions[key]) {
     connection.write(directions[key]);
+  } else if (phrases[key]) {
+    connection.write(phrases[key]);
   }
 };
 
