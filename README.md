@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Example outout of game"](/Screenshots/Snake_game_output1)
-!["Example outout of game_2"](/Screenhots/Snake_game_output1)
+!["Example outout of game"](Screenshots/Snake_game_output1.png?raw=true)
+!["Example outout of game_2"](Screenshots/Snake_game_output2.png?raw=true)
 
 
 ## Getting Started
